@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+<<<<<<< HEAD
 ruby  '>= 3.3.8'
 
 gem 'sinatra',        '~> 4.0'
@@ -24,3 +25,10 @@ group :development, :test do
   gem 'launchy',      '~> 3.0'
   gem 'webmock',      '~> 3.23'
 end
+=======
+ruby '3.3.8'
+
+gem 'sinatra', '~> 4.1'
+gem 'puma',    '~> 6.6'
+gem 'rackup',  '~> 2.2.1'
+>>>>>>> 4c58658 (Set up the Gemfile)
